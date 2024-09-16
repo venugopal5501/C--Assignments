@@ -18,6 +18,7 @@ class pattern
         //     Console.WriteLine();
 
         // }
+        //half A
         for (int i = 1; i <= a; i++)
         {
             for (int j = i; j < a; j++)
@@ -34,15 +35,25 @@ class pattern
                 {
                     Console.Write(" *");
                 }
+              
             }
-            Console.WriteLine();
+           
+            // Console.WriteLine();
+          //half A
             // for(int l=1;l<=i;l++){
             //     Console.Write("");
             // }
             // Console.WriteLine();
+          
+                for(int j=1;j<=i;j++){
+                    Console.Write("  ");
+                }
+                for(int k=a;k>=i;k--){
+                    Console.Write("*");
 
+                }
+                Console.WriteLine();
+            }
         }
-
     }
 
-}
