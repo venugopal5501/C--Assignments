@@ -35,25 +35,34 @@ class pattern
                 {
                     Console.Write(" *");
                 }
-              
+
             }
-           
+
             // Console.WriteLine();
-          //half A
+            //half A
             // for(int l=1;l<=i;l++){
             //     Console.Write("");
             // }
             // Console.WriteLine();
-          
-                for(int j=1;j<=i;j++){
+
+            for (int j = 1; j <= i; j++)
+            {
+                Console.Write("  ");
+            }
+            for (int k = a; k >= i; k--)
+            {
+
+                if (k == a)
+                {
+                    Console.Write("*");
+                }
+                if (k == 6)
+                {
                     Console.Write("  ");
                 }
-                for(int k=a;k>=i;k--){
-                    Console.Write("*");
-
-                }
-                Console.WriteLine();
             }
+            Console.WriteLine();
         }
     }
+}
 
