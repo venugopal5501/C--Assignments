@@ -7,10 +7,9 @@ class library
         char[] arr = word.ToCharArray();
         int a = Convert.ToInt32(Console.ReadLine());
         int b = Convert.ToInt32(Console.ReadLine());
-        for (int j = a; j <= a+b; j++)
+        for (int j = a; j <= a + b; j++)
         {
             Console.Write(arr[j]);
         }
-
     }
 }
