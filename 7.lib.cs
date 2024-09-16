@@ -6,18 +6,10 @@ class library
         string word = Console.ReadLine();
         char[] arr = word.ToCharArray();
         int a = Convert.ToInt32(Console.ReadLine());
-        // int position=arr.IndexOf(3);
-        // Console.Write(position);
-
-        // foreach(char c in word){
-
-
-        // }
-        for (int i = 0; i < arr.Length; i++)
+        int b = Convert.ToInt32(Console.ReadLine());
+        for (int j = a; j <= a+b; j++)
         {
-            if (a==i){
-                Console.Write(arr[i]);
-            }
+            Console.Write(arr[j]);
         }
 
     }
