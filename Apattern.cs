@@ -3,7 +3,10 @@ class pattern
 {
     public static void Main(string[] args)
     {
-        int a = 6;
+
+
+       Console.WriteLine("          *");
+        int a = 10;
         // for(int i=1;i<=a;i++){
         //     for(int j=a;j>=i;j--){
         //         Console.Write("*");
@@ -31,7 +34,7 @@ class pattern
                 {
                     Console.Write("*");
                 }
-                else if (i == 4)
+                if (i == 5)
                 {
                     Console.Write(" *");
                 }
@@ -56,9 +59,9 @@ class pattern
                 {
                     Console.Write("*");
                 }
-                if (k == 6)
+                if (i == 4)
                 {
-                    Console.Write("  ");
+                    Console.Write("");
                 }
             }
             Console.WriteLine();
